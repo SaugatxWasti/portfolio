@@ -31,7 +31,7 @@ export default function Home() {
       </Head>
 
       <main className=" bg-white px-10 dark:bg-gray-900">
-        <section className="min-h-screen">
+        <section>
           <nav className=" py-10 mb-12 flex justify-between">
             <h1 className=" font-SpaceGrotesk lg:text-5xl md:text-4xl sm:text-3xl dark:text-white">
               Samrat Neupane
@@ -58,8 +58,8 @@ export default function Home() {
             <Image src={image} />
           </div>
 
-          <div className=" text-center py-10">
-            <h2 className="text-cyan-600 font-name  lg:text-7xl md:text-6xl sm:text-5xl">
+          <div className=" text-center pt-10">
+            <h2 className="text-cyan-600 font-name text-7xl md:text-6xl sm:text-6xl">
               Samrat Neupane
             </h2>
             <h3 className=" pt-12 text-blue-500 font-infor">
@@ -100,9 +100,9 @@ export default function Home() {
           </div>
         </section>
 
-        <section>
+        <section className=" pt-24">
           <div>
-            <h3 className="  text-center text-cyan-600 pt-10 font-name text-6xl md:text-5xl sm:text-4xl">
+            <h3 className="  text-center text-cyan-600 font-name text-6xl md:text-5xl sm:text-4xl">
               Services I Offer
             </h3>
             <p className=" text-center tracking-normal py-20  text-xl lg:text-5xl md:text-4xl sm:text-3xl  dark:text-white ">
