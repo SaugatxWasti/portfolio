@@ -54,18 +54,18 @@ export default function Home() {
             </ul>
           </nav>
 
-          <div className="relative  mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-35 overflow-hidden">
+          <div className="relative  mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-35 overflow-hidden sm: rounded-full w-60 h-60 ">
             <Image src={image} />
           </div>
 
-          <div className=" text-center p-10 py-10">
-            <h2 className="text-center text-7xl text-cyan-600 font-name  lg:text-8xl md:text-6xl sm:text-6xl">
+          <div className=" text-center py-10">
+            <h2 className="text-cyan-600 font-name  lg:text-7xl md:text-6xl sm:text-5xl">
               Samrat Neupane
             </h2>
-            <h3 className="text-6xl pt-12 text-blue-500 font-infor">
-              <span>
+            <h3 className=" pt-12 text-blue-500 font-infor">
+              <span className=" text-7xl">
                 I am a{" "}
-                <div className="App text-4xl">
+                <div className="App text-6xl tracking-wide">
                   <Typewriter
                     options={{
                       loop: true,
@@ -102,7 +102,7 @@ export default function Home() {
 
         <section>
           <div>
-            <h3 className=" text-7xl text-center text-cyan-600 pt-10 font-name">
+            <h3 className="  text-center text-cyan-600 pt-10 font-name text-6xl md:text-5xl sm:text-4xl">
               Services I Offer
             </h3>
             <p className=" text-center tracking-normal py-20  text-xl lg:text-5xl md:text-4xl sm:text-3xl  dark:text-white ">
@@ -112,39 +112,41 @@ export default function Home() {
               </span>
             </p>
           </div>
-          <div>
-            <h1 className=" text-center text-7xl text-cyan-600 pt-16 font-name">
+        </section>
+        <section>
+          <div className="text-center pt-10">
+            <h1 className=" text-cyan-600  font-name text-6xl md:text-5xl sm:text-4xl">
               Expertise In
             </h1>
+          </div>
 
-            <div className=" grid lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1 ">
-              <div className=" text-center shadow-lg p-10 m-10 ">
-                <div className=" flex justify-center pt-16 ">
-                  <Image src={css} width={150} height={150} />
-                </div>
-                <h1 className=" text-4xl dark:text-white  pt-8">css</h1>
+          <div className=" grid lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1 ">
+            <div className=" text-center shadow-lg p-10 m-10 ">
+              <div className=" flex justify-center pt-16 ">
+                <Image src={css} width={150} height={150} />
               </div>
+              <h1 className=" text-4xl dark:text-white  pt-8">css</h1>
+            </div>
 
-              <div className=" text-center shadow-lg p-10 m-10">
-                <div className=" flex justify-center pt-16 ">
-                  <Image src={js} width={200} height={720} />
-                </div>
-                <h1 className=" text-4xl dark:text-white pt-8">Javascript</h1>
+            <div className=" text-center shadow-lg p-10 m-10">
+              <div className=" flex justify-center pt-16 ">
+                <Image src={js} width={150} height={150} />
               </div>
+              <h1 className=" text-4xl dark:text-white pt-8">Javascript</h1>
+            </div>
 
-              <div className=" text-center shadow-lg p-10 m-10">
-                <div className=" flex justify-center pt-16 ">
-                  <Image src={re} width={200} height={150} />
-                </div>
-                <h1 className=" text-4xl dark:text-white  pt-11">React</h1>
+            <div className=" text-center shadow-lg p-10 m-10">
+              <div className=" flex justify-center pt-16 ">
+                <Image src={re} width={150} height={150} />
               </div>
+              <h1 className=" text-4xl dark:text-white  pt-11">React</h1>
+            </div>
 
-              <div className=" text-center shadow-lg p-10 m-10">
-                <div className=" flex justify-center pt-16 ">
-                  <Image src={tailwind} width={200} height={100} />
-                </div>
-                <h1 className=" text-4xl dark:text-white pt-8">Tailwind</h1>
+            <div className=" text-center shadow-lg p-10 m-10">
+              <div className=" flex justify-center pt-16 ">
+                <Image src={tailwind} width={150} height={150} />
               </div>
+              <h1 className=" text-4xl dark:text-white pt-8">Tailwind</h1>
             </div>
           </div>
         </section>
@@ -157,7 +159,10 @@ export default function Home() {
             <div className=" grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
               <div className=" text-center shadow-lg p-10 m-10 ">
                 <div className=" flex justify-center pt-16 ">
-                  <Image src={weath} width={450} height={150} />
+                  <Image
+                    src={weath}
+                    className=" lg: w-450 h-150 md:w-250 h-150 sm:w-150 h-150"
+                  />
                 </div>
                 <h1
                   className=" text-4xl dark:text-white cursor-pointer pt-8"
@@ -169,7 +174,10 @@ export default function Home() {
 
               <div className=" text-center shadow-lg p-10 m-10  basis-1/2">
                 <div className=" flex justify-center pt-16">
-                  <Image src={yt} width={450} height={150} />
+                  <Image
+                    src={yt}
+                    className=" lg: w-450 h-150 md:w-250 h-150 sm:w-150 h-150"
+                  />
                 </div>
                 <h1
                   className=" text-4xl dark:text-white cursor-pointer pt-8"
@@ -181,7 +189,10 @@ export default function Home() {
 
               <div className=" text-center shadow-lg p-10 m-10  basis-1/2">
                 <div className=" flex justify-center pt-16">
-                  <Image src={todoL} width={450} height={150} />
+                  <Image
+                    src={todoL}
+                    className=" lg: w-450 h-150 md:w-250 h-150 sm:w-150 h-150"
+                  />
                 </div>
                 <h1
                   className=" text-4xl dark:text-white cursor-pointer pt-8"
@@ -193,7 +204,10 @@ export default function Home() {
 
               <div className=" text-center shadow-lg p-10 m-10  basis-1/2">
                 <div className=" flex justify-center pt-16">
-                  <Image src={exten} width={450} height={150} />
+                  <Image
+                    src={exten}
+                    className=" lg: w-450 h-150 md:w-250 h-150 sm:w-150 h-150"
+                  />
                 </div>
                 <h1
                   className=" text-4xl dark:text-white cursor-pointer pt-8"
