@@ -119,34 +119,35 @@ export default function Home() {
               Expertise In
             </h1>
           </div>
-
-          <div className=" grid lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1 ">
-            <div className=" text-center shadow-lg p-10 m-10 ">
-              <div className=" flex justify-center pt-16 ">
-                <Image src={css} width={150} height={150} />
+          <div className=" items-center">
+            <div className=" grid lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1 ">
+              <div className=" text-center shadow-lg p-10 m-10 ">
+                <div className=" flex justify-center pt-16 ">
+                  <Image src={css} width={150} height={150} />
+                </div>
+                <h1 className=" text-4xl dark:text-white  pt-8">css</h1>
               </div>
-              <h1 className=" text-4xl dark:text-white  pt-8">css</h1>
-            </div>
 
-            <div className=" text-center shadow-lg p-10 m-10">
-              <div className=" flex justify-center pt-16 ">
-                <Image src={js} width={150} height={150} />
+              <div className=" text-center shadow-lg p-10 m-10">
+                <div className=" flex justify-center pt-16 ">
+                  <Image src={js} width={150} height={150} />
+                </div>
+                <h1 className=" text-4xl dark:text-white pt-8">Javascript</h1>
               </div>
-              <h1 className=" text-4xl dark:text-white pt-8">Javascript</h1>
-            </div>
 
-            <div className=" text-center shadow-lg p-10 m-10">
-              <div className=" flex justify-center pt-16 ">
-                <Image src={re} width={150} height={150} />
+              <div className=" text-center shadow-lg p-10 m-10">
+                <div className=" flex justify-center pt-16 ">
+                  <Image src={re} width={150} height={150} />
+                </div>
+                <h1 className=" text-4xl dark:text-white  pt-11">React</h1>
               </div>
-              <h1 className=" text-4xl dark:text-white  pt-11">React</h1>
-            </div>
 
-            <div className=" text-center shadow-lg p-10 m-10">
-              <div className=" flex justify-center pt-16 ">
-                <Image src={tailwind} width={150} height={150} />
+              <div className=" text-center shadow-lg p-10 m-10">
+                <div className=" flex justify-center pt-16 ">
+                  <Image src={tailwind} width={150} height={150} />
+                </div>
+                <h1 className=" text-4xl dark:text-white pt-8">Tailwind</h1>
               </div>
-              <h1 className=" text-4xl dark:text-white pt-8">Tailwind</h1>
             </div>
           </div>
         </section>
@@ -241,10 +242,10 @@ export default function Home() {
               <h1>Connect with Me</h1>
             </div>
             <div className=" text-center text-black text-4xl flex justify-center gap-10 py-10 dark:text-green-300 ">
-              <AiFillTwitterCircle href="#" />
-              <AiOutlineLinkedin href="#" />
-              <AiOutlineGithub href="#" />
-              <AiFillInstagram href="#" />
+              <AiFillTwitterCircle href="https://twitter.com/samratneupane6" />
+              <AiOutlineLinkedin href="https://www.linkedin.com/in/samrat-neupane-36394b213/" />
+              <AiOutlineGithub href="https://github.com/SamratNeupane787" />
+              <AiFillInstagram href="https://www.instagram.com/samratneupane_/" />
             </div>
           </div>
         </section>
