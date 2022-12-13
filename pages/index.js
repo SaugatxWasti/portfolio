@@ -119,7 +119,7 @@ export default function Home() {
               Expertise In
             </h1>
           </div>
-          <div className=" items-center">
+          <div className=" items-center py-0">
             <div className=" grid lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1 ">
               <div className=" text-center shadow-lg p-10 m-10 ">
                 <div className=" flex justify-center pt-16 ">
