@@ -221,7 +221,7 @@ export default function Home() {
                   href="#"
                 >
                   <a href="https://web3.samratneupane.com.np/">
-                    Web 3 Landing page
+                    Web 3 Landing Website
                   </a>
                 </h1>
               </div>
