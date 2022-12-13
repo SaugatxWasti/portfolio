@@ -20,6 +20,8 @@ import yt from "../images/yt.jpg";
 import todoL from "../images/todoL.png";
 import exten from "../images/exten.png";
 import tailwind from "../images/tailwind.png";
+import web3 from "../images/web3.png";
+
 export default function Home() {
   const [darkMode, setdarkMode] = useState(false);
   return (
@@ -169,7 +171,9 @@ export default function Home() {
                   className=" text-4xl dark:text-white cursor-pointer pt-8"
                   href="#"
                 >
-                  Weather App
+                  <a href="https://weather.samratneupane.com.np/">
+                    Weather App
+                  </a>
                 </h1>
               </div>
 
@@ -184,7 +188,9 @@ export default function Home() {
                   className=" text-4xl dark:text-white cursor-pointer pt-8"
                   href="#"
                 >
-                  yt to mp3 Converter
+                  <a href="https://mp3downloader.samratneupane.com.np/">
+                    yt to mp3 Converter
+                  </a>
                 </h1>
               </div>
 
@@ -199,7 +205,24 @@ export default function Home() {
                   className=" text-4xl dark:text-white cursor-pointer pt-8"
                   href="#"
                 >
-                  To-Do List
+                  <a href="https://weather.samratneupane.com.np/">To-Do List</a>
+                </h1>
+              </div>
+
+              <div className=" text-center shadow-lg p-10 m-10  basis-1/2">
+                <div className=" flex justify-center pt-16">
+                  <Image
+                    src={web3}
+                    className=" lg: w-450 h-150 md:w-250 h-150 sm:w-150 h-150"
+                  />
+                </div>
+                <h1
+                  className=" text-4xl dark:text-white cursor-pointer pt-8"
+                  href="#"
+                >
+                  <a href="https://web3.samratneupane.com.np/">
+                    Web 3 Landing page
+                  </a>
                 </h1>
               </div>
 
