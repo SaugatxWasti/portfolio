@@ -254,7 +254,7 @@ export default function Home() {
               className=" text-center pt-12  font-name 
             lg:text-4xl md:text-4xl sm:text-4xl dark:text-green-500"
             >
-              Email me :-contact@samratneupane.com.np
+              Email me :-samrat.neupane17013@gmail.com
             </p>
           </div>
         </section>
