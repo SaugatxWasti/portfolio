@@ -265,10 +265,10 @@ export default function Home() {
               <h1>Connect with Me</h1>
             </div>
             <div className=" text-center text-black text-4xl flex justify-center gap-10 py-10 dark:text-green-300 ">
-              <AiFillTwitterCircle href="https://twitter.com/samratneupane6" />
-              <AiOutlineLinkedin href="https://www.linkedin.com/in/samrat-neupane-36394b213/" />
-              <AiOutlineGithub href="https://github.com/SamratNeupane787" />
-              <AiFillInstagram href="https://www.instagram.com/samratneupane_/" />
+              <a href="https://twitter.com/samratneupane6"><AiFillTwitterCircle /></a>
+              <a href="https://www.linkedin.com/in/samrat-neupane-36394b213/" ><AiOutlineLinkedin /></a>
+              <a href="https://github.com/SamratNeupane787" ><AiOutlineGithub /></a>
+             <a href="https://www.instagram.com/samratneupane_/"><AiFillInstagram  /></a>
             </div>
           </div>
         </section>
