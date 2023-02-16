@@ -34,21 +34,21 @@ export default function Home() {
 
       <main className=" bg-white px-10 dark:bg-gray-900">
         <section>
-          <nav className=" py-10 mb-12 flex justify-between">
-            <h1 className=" font-SpaceGrotesk lg:text-5xl md:text-4xl sm:text-3xl dark:text-white">
+          <nav className=" py-8 mb-12 flex justify-between">
+            <h1 className=" font-source lg:text-4xl md:text-3xl sm:text-2xl dark:text-white">
               Samrat Neupane
             </h1>
             <ul className=" flex items-center lg:text-6xl md:text-5xl sm:text-5xl">
               <li>
                 <BsFillMoonStarsFill
                   onClick={() => setdarkMode(!darkMode)}
-                  className=" cursor-pointer text-xl dark:text-white lg:text-3xl md:text-3xl sm:text-3xl "
+                  className=" cursor-pointer text-xl dark:text-white lg:text-2xl md:text-xl sm:text-sm "
                 />
               </li>
-              <li>
+              <li className=" pb-2 flex items-center">
                 <a
                   href="#"
-                  className="bg-cyan-500 text-white px-8 py-4 border-none rounded-md ml-10 lg:text-3xl md:text-3xl sm:text-3xl"
+                  className="bg-cyan-500 text-white px-4 py-2 font-source border-none rounded-md ml-10 lg:text-2xl md:text-xl sm:text-md"
                 >
                   Resume
                 </a>
@@ -61,27 +61,27 @@ export default function Home() {
           </div>
 
           <div className=" text-center pt-10">
-            <h2 className="text-cyan-600 font-name text-7xl md:text-6xl sm:text-6xl">
+            <h2 className="text-cyan-600 font-source text-5xl md:text-4xl sm:text-xl">
               Samrat Neupane
             </h2>
             <h3 className=" pt-12 text-blue-500 font-infor">
-              <span className=" text-7xl">
+              <span className=" font-source text-3xl">
                 I am a{" "}
-                <div className="App text-6xl tracking-wide">
+                <div className="App text-4xl">
                   <Typewriter
                     options={{
                       loop: true,
                     }}
                     onInit={(typewriter) => {
                       typewriter
-                        .typeString(" Developer")
+                        .typeString("Developer")
 
                         .pauseFor(1000)
                         .deleteAll()
-                        .typeString(" Designer")
+                        .typeString("Designer")
                         .pauseFor(1000)
                         .deleteAll()
-                        .typeString(" Content Writer")
+                        .typeString("Content Writer")
                         .pauseFor(1000)
                         .deleteAll()
                         .start();
@@ -90,9 +90,9 @@ export default function Home() {
                 </div>
               </span>
             </h3>
-            <p className=" text-2xl pt-12  pb leading-8 tracking-normal text-amber-800 lg:text-5xl md:text-4xl sm:text-3xl dark:text-white">
+            <p className=" text-2xl pt-12 font-source  font-wepb leading-8  text-amber-800 lg:text-5xl md:text-4xl sm:text-3xl dark:text-white">
               Hi there , I am{" "}
-              <span className="text-green-500 font-name">Samrat Neupane. </span>{" "}
+              <span className="text-green-500 font-soruce">Samrat Neupane. </span>{" "}
               I am a{" "}
               <span className=" text-green-500 cursor-none font-name">
                 Computer Engineering !!
@@ -107,7 +107,7 @@ export default function Home() {
             <h3 className="  text-center text-cyan-600 font-name text-6xl md:text-5xl sm:text-4xl">
               Services I Offer
             </h3>
-            <p className=" text-center tracking-normal py-20  text-xl lg:text-5xl md:text-4xl sm:text-3xl  dark:text-white ">
+            <p className=" text-center font-source py-20  text-xl lg:text-5xl md:text-4xl sm:text-3xl  dark:text-white ">
               Nothing till now but i can develope a{" "}
               <span className="pt-8 text-cyan-600 text-3x  dark:text-green-400 font-name">
                 wordpress website{" "}
@@ -154,7 +154,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section>
+        <section className=" pt-4">
           <div>
             <h1 className=" text-center text-7xl text-cyan-600 font-name">
               Projects
@@ -205,7 +205,7 @@ export default function Home() {
                   className=" text-4xl dark:text-white cursor-pointer pt-8"
                   href="#"
                 >
-                  <a href="https://weather.samratneupane.com.np/">To-Do List</a>
+                  <a href="https://todolist.samratneupane.com.np/">To-Do List</a>
                 </h1>
               </div>
 
@@ -251,7 +251,7 @@ export default function Home() {
             </h1>
 
             <p
-              className=" text-center pt-12  font-name 
+              className=" text-center pt-12 font-source 
             lg:text-4xl md:text-4xl sm:text-4xl dark:text-green-500"
             >
               Email me :-samrat.neupane17013@gmail.com
@@ -261,7 +261,7 @@ export default function Home() {
 
         <section className=" pt-12 ">
           <div className="text-center text-white">
-            <div className=" text-4xl text-cyan-600 font-name">
+            <div className=" text-4xl text-cyan-600 font-source">
               <h1>Connect with Me</h1>
             </div>
             <div className=" text-center text-black text-4xl flex justify-center gap-10 py-10 dark:text-green-300 ">
@@ -274,7 +274,7 @@ export default function Home() {
         </section>
 
         <section>
-          <div className="text-center text-xl py-11 dark:text-white">
+          <div className="text-center font-source text-xl py-11 dark:text-white">
             <h2>Developed by Samrat Neupane</h2>
           </div>
         </section>

@@ -10,6 +10,7 @@ module.exports = {
       fontFamily: {
         name: ["Space Grotesk"],
         infor: ["Bebas Neue"],
+        source:["Source Code Pro"],
       },
     },
   },
