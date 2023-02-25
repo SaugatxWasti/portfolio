@@ -21,6 +21,7 @@ import todoL from "../images/todoL.png";
 import exten from "../images/exten.png";
 import tailwind from "../images/tailwind.png";
 import web3 from "../images/web3.png";
+import resta from "../images/resta.png"
 
 export default function Home() {
   const [darkMode, setdarkMode] = useState(false);
@@ -240,6 +241,26 @@ export default function Home() {
                   IP Address Finding Chrome Extension
                 </h1>
               </div>
+
+
+              <div className=" text-center shadow-lg p-10 m-10  basis-1/2">
+                <div className=" flex justify-center pt-16">
+                  <Image
+                    src={resta}
+                    className=" lg: w-450 h-150 md:w-250 h-150 sm:w-150 h-150"
+                  />
+                </div>
+                <h1
+                  className=" text-4xl p-18 dark:text-white cursor-pointer pt-8"
+                  href="#"
+                >
+                  <a href="https://restaurantwaitlist.samratneupane.com.np/"> 
+                   Restaurant Waitlist App
+                  </a>
+                  {/* <p className=" text-sm pt-12 ">This is an Waitlist App, which i created as an Project for DSA used the queue Data Structure</p> */}
+                </h1>
+              </div>
+
             </div>
           </div>
         </section>
