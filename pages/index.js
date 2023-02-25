@@ -91,7 +91,7 @@ export default function Home() {
                 </div>
               </span>
             </h3>
-            <p className=" text-2xl pt-12 font-source  font-wepb leading-8  text-amber-800 lg:text-5xl md:text-4xl sm:text-3xl dark:text-white">
+            <p className=" text-xl pt-16 font-source  font-wepb leading-8  text-amber-800 lg:text-xl md:text-sm sm:text-sm dark:text-white">
               Hi there , I am{" "}
               <span className="text-green-500 font-soruce">Samrat Neupane. </span>{" "}
               I am a{" "}
@@ -103,7 +103,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className=" pt-24">
+        {/* <section className=" pt-24">
           <div>
             <h3 className="  text-center text-cyan-600 font-name text-6xl md:text-5xl sm:text-4xl">
               Services I Offer
@@ -115,10 +115,10 @@ export default function Home() {
               </span>
             </p>
           </div>
-        </section>
-        <section>
-          <div className="text-center pt-10">
-            <h1 className=" text-cyan-600  font-name text-6xl md:text-5xl sm:text-4xl">
+        </section> */}
+        <section >
+          <div className="text-center pt-16">
+            <h1 className=" text-cyan-600  font-name text-5xl md:text-4xl sm:text-3xl">
               Expertise In
             </h1>
           </div>
@@ -128,36 +128,36 @@ export default function Home() {
                 <div className=" flex justify-center pt-16 ">
                   <Image src={css} width={150} height={150} />
                 </div>
-                <h1 className=" text-4xl dark:text-white  pt-8">css</h1>
+                <h1 className=" text-xl dark:text-white  pt-8">css</h1>
               </div>
 
               <div className=" text-center shadow-lg p-10 m-10">
                 <div className=" flex justify-center pt-16 ">
                   <Image src={js} width={150} height={150} />
                 </div>
-                <h1 className=" text-4xl dark:text-white pt-8">Javascript</h1>
+                <h1 className=" text-xl dark:text-white pt-8">Javascript</h1>
               </div>
 
               <div className=" text-center shadow-lg p-10 m-10">
                 <div className=" flex justify-center pt-16 ">
                   <Image src={re} width={150} height={150} />
                 </div>
-                <h1 className=" text-4xl dark:text-white  pt-11">React</h1>
+                <h1 className=" text-xl dark:text-white  pt-11">React</h1>
               </div>
 
               <div className=" text-center shadow-lg p-10 m-10">
                 <div className=" flex justify-center pt-16 ">
                   <Image src={tailwind} width={150} height={150} />
                 </div>
-                <h1 className=" text-4xl dark:text-white pt-8">Tailwind</h1>
+                <h1 className=" text-xl dark:text-white pt-8">Tailwind</h1>
               </div>
             </div>
           </div>
         </section>
 
-        <section className=" pt-4">
+        <section className=" pt-16">
           <div>
-            <h1 className=" text-center text-7xl text-cyan-600 font-name">
+            <h1 className=" text-center text-5xl text-cyan-600 font-name">
               Projects
             </h1>
             <div className=" grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
@@ -169,7 +169,7 @@ export default function Home() {
                   />
                 </div>
                 <h1
-                  className=" text-4xl dark:text-white cursor-pointer pt-8"
+                  className=" text--16 dark:text-white cursor-pointer pt-8"
                   href="#"
                 >
                   <a href="https://weather.samratneupane.com.np/">
@@ -186,7 +186,7 @@ export default function Home() {
                   />
                 </div>
                 <h1
-                  className=" text-4xl dark:text-white cursor-pointer pt-8"
+                  className=" text--16 dark:text-white cursor-pointer pt-8"
                   href="#"
                 >
                   <a href="https://mp3downloader.samratneupane.com.np/">
@@ -203,7 +203,7 @@ export default function Home() {
                   />
                 </div>
                 <h1
-                  className=" text-4xl dark:text-white cursor-pointer pt-8"
+                  className=" text--16 dark:text-white cursor-pointer pt-8"
                   href="#"
                 >
                   <a href="https://todolist.samratneupane.com.np/">To-Do List</a>
@@ -218,7 +218,7 @@ export default function Home() {
                   />
                 </div>
                 <h1
-                  className=" text-4xl dark:text-white cursor-pointer pt-8"
+                  className=" text--16 dark:text-white cursor-pointer pt-8"
                   href="#"
                 >
                   <a href="https://web3.samratneupane.com.np/">
@@ -235,7 +235,7 @@ export default function Home() {
                   />
                 </div>
                 <h1
-                  className=" text-4xl dark:text-white cursor-pointer pt-8"
+                  className=" text--16 dark:text-white cursor-pointer pt-8"
                   href="#"
                 >
                   IP Address Finding Chrome Extension
@@ -251,7 +251,7 @@ export default function Home() {
                   />
                 </div>
                 <h1
-                  className=" text-4xl p-18 dark:text-white cursor-pointer pt-8"
+                  className=" text--16 p-18 dark:text-white cursor-pointer pt-8"
                   href="#"
                 >
                   <a href="https://restaurantwaitlist.samratneupane.com.np/"> 
@@ -273,7 +273,7 @@ export default function Home() {
 
             <p
               className=" text-center pt-12 font-source 
-            lg:text-4xl md:text-4xl sm:text-4xl dark:text-green-500"
+            lg:text-xl md:text-md sm:text-md dark:text-green-500"
             >
               Email me :-samrat.neupane17013@gmail.com
             </p>
