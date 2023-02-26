@@ -22,7 +22,7 @@ import exten from "../images/exten.png";
 import tailwind from "../images/tailwind.png";
 import web3 from "../images/web3.png";
 import resta from "../images/resta.png"
-
+import next from "../images/next.png"
 export default function Home() {
   const [darkMode, setdarkMode] = useState(false);
   return (
@@ -150,6 +150,13 @@ export default function Home() {
                   <Image src={tailwind} width={150} height={150} />
                 </div>
                 <h1 className=" text-xl dark:text-white pt-8">Tailwind</h1>
+              </div>
+
+              <div className=" text-center shadow-lg p-10 m-10">
+                <div className=" flex justify-center pt-16 dark:bg-slate-400 ">
+                  <Image src={next} width={150} height={150}/>
+                </div>
+                <h1 className=" text-xl dark:text-white pt-8">NextJS</h1>
               </div>
             </div>
           </div>
