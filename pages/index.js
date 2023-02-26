@@ -302,7 +302,7 @@ export default function Home() {
         </section>
 
         <section>
-          <div className="text-center font-source text-xl py-11 dark:text-white">
+          <div className="text-center font-source text-sm py-11 dark:text-white">
             <h2>Developed by Samrat Neupane</h2>
           </div>
         </section>
