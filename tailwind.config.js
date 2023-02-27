@@ -11,6 +11,7 @@ module.exports = {
         name: ["Space Grotesk"],
         infor: ["Bebas Neue"],
         source:["Source Code Pro"],
+        babu:["Source Code Pro"],
       },
     },
   },

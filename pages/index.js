@@ -36,7 +36,7 @@ export default function Home() {
       <main className=" bg-white px-10 dark:bg-gray-900">
         <section>
           <nav className=" py-8 mb-12 flex justify-between">
-            <h1 className=" font-source lg:text-4xl md:text-3xl sm:text-2xl dark:text-white">
+            <h1 className=" font-infor lg:text-4xl md:text-2xl sm:text-xl dark:text-white">
               Samrat Neupane
             </h1>
             <ul className=" flex items-center lg:text-6xl md:text-5xl sm:text-5xl">
@@ -302,7 +302,7 @@ export default function Home() {
         </section>
 
         <section>
-          <div className="text-center font-source text-sm py-11 dark:text-white">
+          <div className="text-center font-source text-smg py-11 dark:text-white">
             <h2>Developed by Samrat Neupane</h2>
           </div>
         </section>
