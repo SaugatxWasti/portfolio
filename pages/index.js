@@ -2,6 +2,7 @@ import Head from "next/head";
 import Typewriter from "typewriter-effect";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 import {
   AiOutlineLinkedin,
@@ -21,8 +22,10 @@ import todoL from "../images/todoL.png";
 import exten from "../images/exten.png";
 import tailwind from "../images/tailwind.png";
 import web3 from "../images/web3.png";
-import resta from "../images/resta.png"
-import next from "../images/next.png"
+import resta from "../images/resta.png";
+import next from "../images/next.png";
+import af from "../images/af.png";
+
 export default function Home() {
   const [darkMode, setdarkMode] = useState(false);
   return (
@@ -93,7 +96,9 @@ export default function Home() {
             </h3>
             <p className=" text-xl pt-16 font-source  font-wepb leading-8  text-amber-800 lg:text-xl md:text-sm sm:text-sm dark:text-white">
               Hi there , I am{" "}
-              <span className="text-green-500 font-soruce">Samrat Neupane. </span>{" "}
+              <span className="text-green-500 font-soruce">
+                Samrat Neupane.{" "}
+              </span>{" "}
               I am a{" "}
               <span className=" text-green-500 cursor-none font-name">
                 Computer Engineering !!
@@ -116,7 +121,7 @@ export default function Home() {
             </p>
           </div>
         </section> */}
-        <section >
+        <section>
           <div className="text-center pt-16">
             <h1 className=" text-cyan-600  font-name text-5xl md:text-4xl sm:text-3xl">
               Expertise In
@@ -154,7 +159,7 @@ export default function Home() {
 
               <div className=" text-center shadow-lg p-10 m-10">
                 <div className=" flex justify-center pt-16 dark:bg-slate-400 ">
-                  <Image src={next} width={150} height={150}/>
+                  <Image src={next} width={150} height={150} />
                 </div>
                 <h1 className=" text-xl dark:text-white pt-8">NextJS</h1>
               </div>
@@ -213,7 +218,9 @@ export default function Home() {
                   className=" text--16 dark:text-white cursor-pointer pt-8"
                   href="#"
                 >
-                  <a href="https://todolist.samratneupane.com.np/">To-Do List</a>
+                  <a href="https://todolist.samratneupane.com.np/">
+                    To-Do List
+                  </a>
                 </h1>
               </div>
 
@@ -249,7 +256,6 @@ export default function Home() {
                 </h1>
               </div>
 
-
               <div className=" text-center shadow-lg p-10 m-10  basis-1/2">
                 <div className=" flex justify-center pt-16">
                   <Image
@@ -261,13 +267,27 @@ export default function Home() {
                   className=" text--16 p-18 dark:text-white cursor-pointer pt-8"
                   href="#"
                 >
-                  <a href="https://restaurantwaitlist.samratneupane.com.np/"> 
-                   Restaurant Waitlist App
+                  <a href="https://restaurantwaitlist.samratneupane.com.np/">
+                    Restaurant Waitlist App
                   </a>
                   {/* <p className=" text-sm pt-12 ">This is an Waitlist App, which i created as an Project for DSA used the queue Data Structure</p> */}
                 </h1>
               </div>
 
+              <div className=" text-center shadow-lg p-10 m-10  basis-1/2">
+                <div className=" flex justify-center pt-16">
+                  <Image
+                    src={af}
+                    className=" lg: w-450 h-150 md:w-250 h-150 sm:w-150 h-150"
+                  />
+                </div>
+                <h1
+                  className=" text--16 dark:text-white cursor-pointer pt-8"
+                  href="#"
+                >
+                  <a href="https://fplstats.samratneupane.com.np/">FPL Stats</a>
+                </h1>
+              </div>
             </div>
           </div>
         </section>
@@ -293,10 +313,18 @@ export default function Home() {
               <h1>Connect with Me</h1>
             </div>
             <div className=" text-center text-black text-4xl flex justify-center gap-10 py-10 dark:text-green-300 ">
-              <a href="https://twitter.com/samratneupane6"><AiFillTwitterCircle /></a>
-              <a href="https://www.linkedin.com/in/samrat-neupane-36394b213/" ><AiOutlineLinkedin /></a>
-              <a href="https://github.com/SamratNeupane787" ><AiOutlineGithub /></a>
-             <a href="https://www.instagram.com/samratneupane_/"><AiFillInstagram  /></a>
+              <a href="https://twitter.com/samratneupane6">
+                <AiFillTwitterCircle />
+              </a>
+              <a href="https://www.linkedin.com/in/samrat-neupane-36394b213/">
+                <AiOutlineLinkedin />
+              </a>
+              <a href="https://github.com/SamratNeupane787">
+                <AiOutlineGithub />
+              </a>
+              <a href="https://www.instagram.com/samratneupane_/">
+                <AiFillInstagram />
+              </a>
             </div>
           </div>
         </section>
