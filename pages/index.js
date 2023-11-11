@@ -173,6 +173,21 @@ export default function Home() {
               Projects
             </h1>
             <div className=" grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
+              <div className=" text-center shadow-lg p-10 m-10  basis-1/2">
+                <div className=" flex justify-center pt-16">
+                  <Image
+                    src={af}
+                    className=" lg: w-450 h-150 md:w-250 h-150 sm:w-150 h-150"
+                  />
+                </div>
+                <h1
+                  className=" text--16 dark:text-white cursor-pointer pt-8"
+                  href="#"
+                >
+                  <a href="https://fplstats.samratneupane.com.np/">FPL Stats</a>
+                </h1>
+              </div>
+
               <div className=" text-center shadow-lg p-10 m-10 ">
                 <div className=" flex justify-center pt-16 ">
                   <Image
@@ -271,21 +286,6 @@ export default function Home() {
                     Restaurant Waitlist App
                   </a>
                   {/* <p className=" text-sm pt-12 ">This is an Waitlist App, which i created as an Project for DSA used the queue Data Structure</p> */}
-                </h1>
-              </div>
-
-              <div className=" text-center shadow-lg p-10 m-10  basis-1/2">
-                <div className=" flex justify-center pt-16">
-                  <Image
-                    src={af}
-                    className=" lg: w-450 h-150 md:w-250 h-150 sm:w-150 h-150"
-                  />
-                </div>
-                <h1
-                  className=" text--16 dark:text-white cursor-pointer pt-8"
-                  href="#"
-                >
-                  <a href="https://fplstats.samratneupane.com.np/">FPL Stats</a>
                 </h1>
               </div>
             </div>
