@@ -51,7 +51,8 @@ export default function Home() {
               </li>
               <li className=" pb-2 flex items-center">
                 <a
-                  href="#"
+                  href="https://drive.google.com/file/d/1VvtuhwnGZrWtX72ZRytyiJ8daHCd5lCE/view?usp=sharing"
+                  target="_blank"
                   className="bg-cyan-500 text-white px-4 py-2 font-source border-none rounded-md ml-10 lg:text-2xl md:text-xl sm:text-md"
                 >
                   Resume
@@ -60,7 +61,7 @@ export default function Home() {
             </ul>
           </nav>
 
-          <div className="relative  mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-35 overflow-hidden sm: rounded-full w-60 h-60 ">
+          <div className="relative  mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-35 overflow-hidden sm:rounded-full w-60 h-60 ">
             <Image src={image} />
           </div>
 
@@ -158,10 +159,17 @@ export default function Home() {
               </div>
 
               <div className=" text-center shadow-lg p-10 m-10">
-                <div className=" flex justify-center pt-16 dark:bg-slate-400 ">
+                <div className=" flex justify-center align-center pt-16 dark:bg-slate-400 ">
                   <Image src={next} width={150} height={150} />
                 </div>
-                <h1 className=" text-xl dark:text-white pt-8">NextJS</h1>
+                <h1 className=" text-xl dark:text-white pt-16">NextJS</h1>
+              </div>
+
+              <div className=" text-center shadow-lg p-10 m-10">
+                <div className=" flex justify-center pt-16 ">
+                  <Image src={re} width={150} height={150} />
+                </div>
+                <h1 className=" text-xl dark:text-white  pt-8">React Native</h1>
               </div>
             </div>
           </div>
@@ -173,21 +181,6 @@ export default function Home() {
               Projects
             </h1>
             <div className=" grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
-              <div className=" text-center shadow-lg p-10 m-10  basis-1/2">
-                <div className=" flex justify-center pt-16">
-                  <Image
-                    src={af}
-                    className=" lg: w-450 h-150 md:w-250 h-150 sm:w-150 h-150"
-                  />
-                </div>
-                <h1
-                  className=" text--16 dark:text-white cursor-pointer pt-8"
-                  href="#"
-                >
-                  <a href="https://fplstats.samratneupane.com.np/">FPL Stats</a>
-                </h1>
-              </div>
-
               <div className=" text-center shadow-lg p-10 m-10 ">
                 <div className=" flex justify-center pt-16 ">
                   <Image
@@ -196,7 +189,7 @@ export default function Home() {
                   />
                 </div>
                 <h1
-                  className=" text--16 dark:text-white cursor-pointer pt-8"
+                  className=" text-16 dark:text-white cursor-pointer pt-8"
                   href="#"
                 >
                   <a href="https://weather.samratneupane.com.np/">
@@ -213,7 +206,7 @@ export default function Home() {
                   />
                 </div>
                 <h1
-                  className=" text--16 dark:text-white cursor-pointer pt-8"
+                  className=" text-16 dark:text-white cursor-pointer pt-8"
                   href="#"
                 >
                   <a href="https://mp3downloader.samratneupane.com.np/">
@@ -230,7 +223,7 @@ export default function Home() {
                   />
                 </div>
                 <h1
-                  className=" text--16 dark:text-white cursor-pointer pt-8"
+                  className=" text-16 dark:text-white cursor-pointer pt-8"
                   href="#"
                 >
                   <a href="https://todolist.samratneupane.com.np/">
@@ -247,7 +240,7 @@ export default function Home() {
                   />
                 </div>
                 <h1
-                  className=" text--16 dark:text-white cursor-pointer pt-8"
+                  className=" text-16 dark:text-white cursor-pointer pt-8"
                   href="#"
                 >
                   <a href="https://web3.samratneupane.com.np/">
@@ -264,7 +257,7 @@ export default function Home() {
                   />
                 </div>
                 <h1
-                  className=" text--16 dark:text-white cursor-pointer pt-8"
+                  className=" text-16 dark:text-white cursor-pointer pt-8"
                   href="#"
                 >
                   IP Address Finding Chrome Extension
@@ -279,7 +272,7 @@ export default function Home() {
                   />
                 </div>
                 <h1
-                  className=" text--16 p-18 dark:text-white cursor-pointer pt-8"
+                  className=" text-16 p-18 dark:text-white cursor-pointer pt-8"
                   href="#"
                 >
                   <a href="https://restaurantwaitlist.samratneupane.com.np/">
