@@ -24,6 +24,8 @@ import tailwind from "../images/tailwind.png";
 import web3 from "../images/web3.png";
 import resta from "../images/resta.png";
 import next from "../images/next.png";
+import codingfunda from "../images/codingfunda.png";
+
 import af from "../images/af.png";
 
 export default function Home() {
@@ -181,6 +183,23 @@ export default function Home() {
               Projects
             </h1>
             <div className=" grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
+              <div className=" text-center shadow-lg p-10 m-10  basis-1/2">
+                <div className=" flex justify-center pt-16">
+                  <Image
+                    src={codingfunda}
+                    className=" lg: w-450 h-150 md:w-250 h-150 sm:w-150 h-150"
+                  />
+                </div>
+                <h1
+                  className=" text-16 dark:text-white cursor-pointer pt-8"
+                  href="#"
+                >
+                  <a href="https://codingfunda.samratneupane.com.np/">
+                    Course Selling Website
+                  </a>
+                </h1>
+              </div>
+
               <div className=" text-center shadow-lg p-10 m-10 ">
                 <div className=" flex justify-center pt-16 ">
                   <Image
