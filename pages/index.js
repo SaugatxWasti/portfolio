@@ -54,7 +54,6 @@ export default function Home() {
               <li className=" pb-2 flex items-center">
                 <a
                   href="https://drive.google.com/file/d/1VvtuhwnGZrWtX72ZRytyiJ8daHCd5lCE/view?usp=sharing"
-                  target="_blank"
                   className="bg-cyan-500 text-white px-4 py-2 font-source border-none rounded-md ml-10 lg:text-2xl md:text-xl sm:text-md"
                 >
                   Resume
