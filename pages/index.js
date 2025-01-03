@@ -23,9 +23,9 @@ import exten from "../images/exten.png";
 import tailwind from "../images/tailwind.png";
 import web3 from "../images/web3.png";
 import resta from "../images/resta.png";
-import heyjob from "../images/heyjob.jpg"
+import heyjob from "../images/heyjob.jpg";
 import codingfunda from "../images/codingfunda.png";
-
+import Link from "next/link";
 
 export default function Home() {
   const [darkMode, setdarkMode] = useState(false);
@@ -37,23 +37,21 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className=" bg-[#514d4d] text-white px-10 ">
+      <main className="bg-black text-white px-10">
         <section>
-          <nav className=" py-8 mb-12 flex justify-between">
-            <h1 className=" font-infor lg:text-4xl md:text-2xl sm:text-xl dark:text-white">
-              Saugat Wasti
-            </h1>
-            <ul className=" flex items-center lg:text-6xl md:text-5xl sm:text-5xl">
+          <nav className="py-8 mb-12 flex justify-between">
+            <h1 className="font-infor lg:text-4xl md:text-2xl sm:text-xl">Saugat Wasti</h1>
+            <ul className="flex items-center lg:text-6xl md:text-5xl sm:text-5xl">
               <li>
                 <BsFillMoonStarsFill
                   onClick={() => setdarkMode(!darkMode)}
-                  className=" cursor-pointer text-xl dark:text-white lg:text-2xl md:text-xl sm:text-sm "
+                  className="cursor-pointer text-xl lg:text-2xl md:text-xl sm:text-sm"
                 />
               </li>
-              <li className=" pb-2 flex items-center">
+              <li className="pb-2 flex items-center">
                 <a
-                  href="https://drive.google.com/file/d/1VvtuhwnGZrWtX72ZRytyiJ8daHCd5lCE/view?usp=sharing"
-                  className="bg-cyan-500 text-white px-4 py-2 font-source border-none rounded-md ml-10 lg:text-2xl md:text-xl sm:text-md"
+                  href="https://drive.google.com/file/d/1niyRGHyd-0zL8yoZ2O7zOBBLUIQlK69g/view?usp=sharing" target="_blank"
+                  className="bg-gray-700 text-white px-4 py-2 font-source border-none rounded-md ml-10 lg:text-2xl md:text-xl sm:text-md"
                 >
                   Resume
                 </a>
@@ -61,16 +59,14 @@ export default function Home() {
             </ul>
           </nav>
 
-          <div className="relative  mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-35 overflow-hidden sm:rounded-full w-60 h-60 ">
+          <div className="relative mx-auto bg-gray-800 rounded-full w-80 h-80 mt-35 overflow-hidden sm:rounded-full w-60 h-60">
             <Image src={image} />
           </div>
 
-          <div className=" text-center pt-10">
-            <h2 className="text-cyan-600 font-source text-5xl md:text-4xl sm:text-xl">
-              Saugat Wasti
-            </h2>
-            <h3 className=" pt-12 text-blue-500 font-infor">
-              <span className=" font-source text-3xl">
+          <div className="text-center pt-10">
+            <h2 className="font-source text-5xl md:text-4xl sm:text-xl">Saugat Wasti</h2>
+            <h3 className="pt-12">
+              <span className="font-source text-3xl">
                 I am a{" "}
                 <div className="App text-4xl">
                   <Typewriter
@@ -80,7 +76,6 @@ export default function Home() {
                     onInit={(typewriter) => {
                       typewriter
                         .typeString("Developer")
-
                         .pauseFor(1000)
                         .deleteAll()
                         .typeString("Designer")
@@ -95,106 +90,81 @@ export default function Home() {
                 </div>
               </span>
             </h3>
-            <p className=" text-xl pt-16 font-source  font-wepb leading-8  text-amber-800 lg:text-xl md:text-sm sm:text-sm dark:text-white">
-              Hi there , I am{" "}
-              <span className="text-green-500 font-soruce">
-                Saugat Wasti.{" "}
-              </span>{" "}
-              I am a{" "}
-              <span className=" text-green-500 cursor-none font-name">
-                Computer Engineering !!
-              </span>{" "}
-              student who loves to write codes and I love travelling.
+            <p className="text-xl pt-16 font-source font-wepb leading-8 lg:text-xl md:text-sm sm:text-sm">
+              Hi there, I am <span className="font-soruce">Saugat Wasti.</span> I am a <span className="font-name">Computer Engineering</span> student who loves to write code and travel.
             </p>
           </div>
         </section>
 
-        
         <section>
           <div className="text-center pt-16">
-            <h1 className=" text-cyan-600  font-name text-5xl md:text-4xl sm:text-3xl">
-              Expertise In
-            </h1>
+            <h1 className="font-name text-5xl md:text-4xl sm:text-3xl">Expertise In</h1>
           </div>
-          <div className=" items-center py-0">
-            <div className=" grid lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1 ">
-              <div className=" text-center shadow-lg p-10 m-10 ">
-                <div className=" flex justify-center pt-16 ">
+          <div className="items-center py-0">
+            <div className="grid lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1">
+              <div className="text-center shadow-lg p-10 m-10">
+                <div className="flex justify-center pt-16">
                   <Image src={css} width={150} height={150} />
                 </div>
-                <h1 className=" text-xl dark:text-white  pt-8">css</h1>
+                <h1 className="text-xl pt-8">CSS</h1>
               </div>
 
-              <div className=" text-center shadow-lg p-10 m-10">
-                <div className=" flex justify-center pt-16 ">
+              <div className="text-center shadow-lg p-10 m-10">
+                <div className="flex justify-center pt-16">
                   <Image src={js} width={150} height={150} />
                 </div>
-                <h1 className=" text-xl dark:text-white pt-8">Javascript</h1>
+                <h1 className="text-xl pt-8">JavaScript</h1>
               </div>
 
-              <div className=" text-center shadow-lg p-10 m-10">
-                <div className=" flex justify-center pt-16 ">
+              <div className="text-center shadow-lg p-10 m-10">
+                <div className="flex justify-center pt-16">
                   <Image src={re} width={150} height={150} />
                 </div>
-                <h1 className=" text-xl dark:text-white  pt-11">React</h1>
+                <h1 className="text-xl pt-11">React</h1>
               </div>
 
-              <div className=" text-center shadow-lg p-10 m-10">
-                <div className=" flex justify-center pt-16 ">
+              <div className="text-center shadow-lg p-10 m-10">
+                <div className="flex justify-center pt-16">
                   <Image src={tailwind} width={150} height={150} />
                 </div>
-                <h1 className=" text-xl dark:text-white pt-8">Tailwind</h1>
+                <h1 className="text-xl pt-8">Tailwind</h1>
               </div>
-
-              
-
-              
             </div>
           </div>
         </section>
 
-
         <section>
           <div className="text-center pt-16">
-            <h1 className=" text-cyan-600  font-name text-5xl md:text-4xl sm:text-3xl">
-              My projects
-            </h1>
+            <h1 className="font-name text-5xl md:text-4xl sm:text-3xl">My Projects</h1>
           </div>
-          <div className=" items-center py-0">
-            <div className=" grid lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1 ">
-              <div className=" text-center shadow-lg p-10 m-10 ">
-                <div className=" flex justify-center pt-16 ">
+          <div className="items-center py-0">
+            <div className="grid lg:grid-cols-4 md:grid-cols-1 sm:grid-cols-1">
+              <div className="text-center shadow-lg p-10 m-10">
+                <div className="flex justify-center pt-16">
                   <Image src={heyjob} width={420} height={150} />
                 </div>
-                <h1 className=" text-xl dark:text-white  pt-8" href='https://hey-job.vercel.app/user/best-matches'>Heyjob</h1>
+                <Link href="https://hey-job.vercel.app/user/best-matches" target="_blank"><h1 className="text-xl pt-8">Heyjob</h1></Link>
               </div>
-
-              </div>
+            </div>
           </div>
         </section>
-        
 
         <section>
-          <div width={600} height={600} className=" border-red-600">
-            <h1 className="text-center text-5xl text-cyan-600 pt-16 font-name">
-              For Collaboration
-            </h1>
+          <div width={600} height={600} className="border-red-600">
+            <h1 className="text-center text-5xl pt-16 font-name">For Collaboration</h1>
 
-            <p
-              className=" text-center pt-12 font-source 
-            lg:text-xl md:text-md sm:text-md dark:text-green-500"
-            >
-              Email me :-wastisaugat217@gmail.com
+            <p className="text-center pt-12 font-source lg:text-xl md:text-md sm:text-md">
+              Email me: wastisaugat217@gmail.com
             </p>
           </div>
         </section>
 
-        <section className=" pt-12 ">
+        <section className="pt-12">
           <div className="text-center text-white">
-            <div className=" text-4xl text-cyan-600 font-source">
+            <div className="text-4xl font-source">
               <h1>Connect with Me</h1>
             </div>
-            <div className=" text-center text-black text-4xl flex justify-center gap-10 py-10 dark:text-green-300 ">
+            <div className="text-center text-4xl flex justify-center gap-10 py-10">
               <a href="https://twitter.com/saugatwasti21">
                 <AiFillTwitterCircle />
               </a>
@@ -212,7 +182,7 @@ export default function Home() {
         </section>
 
         <section>
-          <div className="text-center font-source text-smg py-11 dark:text-white">
+          <div className="text-center font-source text-smg py-11">
             <h2>Developed by Saugat Wasti</h2>
           </div>
         </section>
