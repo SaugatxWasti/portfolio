@@ -50,7 +50,7 @@ export default function Home() {
               </li>
               <li className="pb-2 flex items-center">
                 <a
-                  href="https://drive.google.com/file/d/1niyRGHyd-0zL8yoZ2O7zOBBLUIQlK69g/view?usp=sharing" target="_blank"
+                  href="https://drive.google.com/file/d/1niyRGHyd-0zL8yoZ2O7zOBBLUIQlK69g/view?usp=sharing" 
                   className="bg-gray-700 text-white px-4 py-2 font-source border-none rounded-md ml-10 lg:text-2xl md:text-xl sm:text-md"
                 >
                   Resume
@@ -143,7 +143,7 @@ export default function Home() {
                 <div className="flex justify-center pt-16">
                   <Image src={heyjob} width={420} height={150} />
                 </div>
-                <Link href="https://hey-job.vercel.app/user/best-matches" target="_blank"><h1 className="text-xl pt-8">Heyjob</h1></Link>
+                <Link href="https://hey-job.vercel.app/user/best-matches" ><h1 className="text-xl pt-8">Heyjob</h1></Link>
               </div>
             </div>
           </div>
